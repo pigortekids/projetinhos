@@ -1,0 +1,5 @@
+-> tentar fazer um epsilon decay
+-> como passar infos entre as funcoes (epsilon)
+-> testar diferentes optmizers
+-> testar diferentes modelos
+-> entender as metricas e como usar
