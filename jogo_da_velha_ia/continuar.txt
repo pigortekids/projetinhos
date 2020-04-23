@@ -1,5 +1,16 @@
--> tentar fazer um epsilon decay
--> como passar infos entre as funcoes (epsilon)
+-> tentar fazer um epsilon decay (criar um callback customizado)
+-> como passar infos entre as funcoes (epsilon) (criar um callback customizado)
 -> entender dueling nets
--> entender as metricas e como usar
+-> entender as metricas e como usar (criar um callback customizado)
 -> tentar fazer um jogar contra o outro
+-> criar uma rede para cada jogada
+-> criar um conjunto de teste com todas as possibilidades (inviavel, são muitas opções)
+-> deixar o número de episodios bem grande (muitas possibilidades de posições no campo)
+-> colocar done = True e recompensa = -100 quando a jogada for inválida
+-> diminuir modelo (ta grande demais)
+-> colocar recompensa pequena quando o jogo da velha (para evitar jogadas inválidas)
+
+
+
+-> a IA ja consegue jogar por si só e fazer jogadas boas, mas ainda faz jogadas invalidas,
+isso pode acontecer porque ela sabe que o jogo vai dar velha, então joga qualquer coisa (isso seria valido se as jogadas inválidas não estivessem com recompensa negativa)
