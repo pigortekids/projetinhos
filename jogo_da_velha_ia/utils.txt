@@ -1,3 +1,9 @@
 https://www.superdatascience.com/pages/artificial-intelligence
 https://github.com/lazyprogrammer/machine_learning_examples
 https://towardsdatascience.com/creating-a-custom-openai-gym-environment-for-stock-trading-be532be3910e
+https://arxiv.org/abs/1511.06581
+https://matplotlib.org/devdocs/gallery/subplots_axes_and_figures/subplots_demo.html
+https://soygema.github.io/starcraftII_machine_learning/#0
+https://playground.tensorflow.org/
+msa -> mean square error
+mae -> mean absolute error

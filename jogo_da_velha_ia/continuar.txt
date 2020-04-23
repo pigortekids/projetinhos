@@ -1,5 +1,5 @@
 -> tentar fazer um epsilon decay
 -> como passar infos entre as funcoes (epsilon)
--> testar diferentes optmizers
--> testar diferentes modelos
+-> entender dueling nets
 -> entender as metricas e como usar
+-> tentar fazer um jogar contra o outro
