@@ -1,0 +1,16 @@
+https://pt.wikipedia.org/wiki/Jogo_da_velha
+possibilidades de jogos = 362.880 (9!)
+possibilidades de jogos validos = 255.168 (70,3%)
+	209.088 jogos terminam em alguem ganhando
+		se considerar que 'X' inicia:
+		131.184 jogos são ganhos por 'X'
+			1.440 ganhos em 5 movimentos
+			47.952 ganhos em 7 movimentos
+			81.792 ganhos em 9 movimentos
+		77.904 jogos são ganhos por 'O'
+			5.328 ganhos em 6 movimentos
+			72.576 ganhos em 8 movimentos
+	46.080 jogos dão em empate
+
+Não adianta tentar fazer uma probabilidade de melhores resultados, porque o jogador contra a IA é aleatorio e a IA não,
+por isso ele tenta resolver o problema da melhor forma, e terão vezes que será fácil e outras difícil
