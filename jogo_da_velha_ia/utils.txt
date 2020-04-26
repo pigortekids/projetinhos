@@ -7,3 +7,6 @@ https://soygema.github.io/starcraftII_machine_learning/#0
 https://playground.tensorflow.org/
 msa -> mean square error
 mae -> mean absolute error
+https://www.researchgate.net/post/How_to_evaluate_reinforcement_learning_model
+https://www.quora.com/How-do-I-measure-learning-performance-in-Q-Learning
+https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html

@@ -1,0 +1,3 @@
+v1 -> versão criando o ambiente e o agente sem o keras
+v2 -> versão já com o keras mas com epsilon fixo
+v3 -> implementação com decaimento de epsilon
