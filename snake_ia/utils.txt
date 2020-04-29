@@ -1,0 +1,4 @@
+https://medium.com/the-artificial-impostor/keras-for-tpus-on-google-colaboratory-free-7c00961fed69
+https://colab.research.google.com/gist/ceshine/bb0c58328315d5cfef993bc3ed3b4bf6/keras-fashion-mnist-cpu.ipynb
+https://colab.research.google.com/gist/ceshine/ad29b53188a325d9e8910b76783eac02/keras-fashion-mnist-gpu.ipynb
+https://colab.research.google.com/gist/ceshine/f196d6b030adb1ec3a8d0b50642709dc/keras-fashion-mnist-tpu.ipynb
