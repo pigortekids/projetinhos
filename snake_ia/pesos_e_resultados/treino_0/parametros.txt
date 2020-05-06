@@ -1,0 +1,10 @@
+input shape = (1, 7, 7)
+desconto por casa = -0.001
+batch size = 32
+modelo = 256, 128, 64, 32
+metricas = ['accuracy']
+numero de steps = [600000, 1000000]
+numero de steps de aquecimento = 100
+numero maximo de steps por episodio = 200
+politicas = [Linear(EpsGreddyPolicy(), "eps", 1.0, 0.2), EpsGreddyPolicy(0.2)]
+otimizador = Adam()

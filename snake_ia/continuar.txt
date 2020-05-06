@@ -1,0 +1,5 @@
+*-> display do jogo no colab
+-> mudar o valor das casas pra quanto mais longe da maça, mais negativo
+-> entender o aprendizado so de imagens do atari
+-> aplicar transferencia de aprendizado com redes convolucionais (caso for usar imagens)
+-> criar politica que faz o epsilon decair de forma exponencial
