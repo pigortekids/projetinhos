@@ -1,0 +1,47 @@
+input shape = (1, 7, 7)
+
+desconto por casa = -0.001
+
+batch size = 32
+
+modelo =
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten (Flatten)            (None, 49)                0         
+_________________________________________________________________
+dense (Dense)                (None, 256)               12800     
+_________________________________________________________________
+dropout (Dropout)            (None, 256)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 128)               32896     
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 128)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 64)                8256      
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 64)                0         
+_________________________________________________________________
+dense_3 (Dense)              (None, 32)                2080      
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 32)                0         
+_________________________________________________________________
+dense_4 (Dense)              (None, 4)                 132       
+=================================================================
+Total params: 56,164
+Trainable params: 56,164
+Non-trainable params: 0
+_________________________________________________________________
+
+metricas = ['accuracy']
+
+numero de steps = [600000, 500000, 500000]
+
+numero de steps de aquecimento = 1000
+
+numero maximo de steps por episodio = 200
+
+politicas =<rl.policy.LinearAnnealedPolicy object at 0x7f8ee8577be0> {'inner_policy': <rl.policy.EpsGreedyQPolicy object at 0x7f8f0cd4e6a0>, 'attr': 'eps', 'value_max': 1.0, 'value_min': 0.2, 'value_test': 0, 'nb_steps': 600000}<rl.policy.EpsGreedyQPolicy object at 0x7f8eed6d15f8> {'eps': 0.2}<rl.policy.GreedyQPolicy object at 0x7f8ee853cb00> {}
+
+otimizador = <tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x7f8ee85fc358> {'_use_locking': True, '_name': 'Adam', '_scope_ctx': 'Adam/', '_hyper': {'learning_rate': 0.001, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999}, '_slots': {}, '_slot_names': [], '_weights': [], '_iterations': None, '_deferred_slot_restorations': {}, '_initial_decay': 0.0, '_hypers_created': False, 'epsilon': 1e-07, 'amsgrad': False}
