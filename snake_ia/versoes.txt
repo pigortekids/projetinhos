@@ -1,0 +1,2 @@
+v1 -> 4 possíveis ações (andar para cima, direita, baixo e esquerda)
+v2 -> 3 possíveis ações (manter a direção, mudar direção pra direita e esquerda)
